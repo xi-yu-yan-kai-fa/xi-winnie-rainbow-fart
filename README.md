@@ -1,5 +1,5 @@
 <h1 align="center">
-習近平小熊維尼 ⭐️ rainbow-fart ⭐️ 语音包
+⭐️ 大独裁者 ⭐️ 習近平小熊維尼 ⭐️ 习近平 ⭐️ 小熊维尼 ⭐️ rainbow-fart ⭐️ 语音包 ⭐️
 </h1>
 
 <p align="center">
