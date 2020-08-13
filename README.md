@@ -24,14 +24,11 @@
 
 在 vscode-rainbow-fart(v1.2.3) 中引入语音包是需要打包成 zip 然后引用的，
 
-**本项目已经提供了打包好的文件，可以直接在 [Releases]() 中下载最新版 zip；**
+**本项目已经提供了打包好的文件，可以直接在 [Releases](https://github.com/xi-yu-yan-kai-fa/xi-winnie-rainbow-fart/releases) 中下载最新版 zip；**
 
-(或者作为开发者从[本仓库]() clone 后自己手动把相关资源打包成 zip (`npm run build`)。)
+(或者作为开发者从[本仓库](https://github.com/xi-yu-yan-kai-fa/xi-winnie-rainbow-fart) clone 后自己手动把相关资源打包成 zip (`npm run build`)。)
 
 然后在本地 vscode 启动的 rainbow-fart 配置页面中 `Settings` -> `Voice Packages` -> `Import` 中导入 zip，导入后需要点 enable 开关开启使用；
-
-![import](./preview/import.png)
-
 
 ## Customize
 
