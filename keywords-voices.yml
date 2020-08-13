@@ -1,0 +1,266 @@
+---
+# Customize Voice Packages
+# https://saekiraku.github.io/vscode-rainbow-fart/#/zh/voice-packages.md
+
+languages:
+  - javascript
+  - typescript
+  - python
+  - golang
+
+contributes:
+  # vscode-rainbow-fart built-in magic keys
+  - keywords:
+      - $time_morning
+      - $time_noon
+      - $time_evening
+      - $time_midnight
+      - $time_each_hour
+    voices:
+      - voices/crash.mp3
+      - voices/flap.mp3
+      - voices/gameover.mp3
+      - voices/ouch.mp3
+
+  # typos
+  - keywords:
+      - sleect  # typo of select
+      - Sleect  # typo of select
+      - fliter  # typo of filter
+      - fitler  # typo of filter
+      - deatil  # typo of detail
+      - Deatil  # typo of detail
+      - deafult  # typo of default
+      - Deafult  # typo of default
+      - funtion  # typo of function
+      - ture  # typo of true
+      - fasle  # typo of false
+      - frist  # typo of first
+      - filed  # typo of field
+      - Filed  # typo of field
+      - lable  # typo of label
+      - Lable  # typo of label
+      - Botton  # typo of button
+      - buttom  # typo of button
+      - qeury  # typo of query
+      - Shema  # typo of schema
+      - Schame  # typo of schema
+      - Resiable  # typo of resizable
+      - Dasbhoard  # typo of dashboard
+      - submited  # typo of submitted
+      - Submited  # typo of submitted
+      - submiting  # typo of submitting
+      - cancle  # typo of cancel
+      - avaliable  # typo of available
+      - delimeter  # typo of delimiter
+      - attibute  # typo of attribute
+      - confrim  # typo of confirm
+      - formated  # typo of formatted
+      - Pannel  # typo of panel
+      - Soruce  # typo of source
+      - Resouce  # typo of resource
+      - Categorys  # typo of categories
+      - categoried  # typo of categorized
+      - Propety  # typo of property
+      - Feaure  # typo of feature
+      - Instace  # typo of instance
+      - deparment  # typo of department
+      - laoding  # typo of loading
+      - Hanlder  # typo of handler
+      - paylaod  # typo of payload
+      - editting  # typo of editing
+      - Favord  # typo of favored
+      - Uncompatible  # typo of incompatible
+      - backgroud  # typo of background
+      - affact  # typo of affect
+      - udpate  # typo of update
+      - Udpate  # typo of update
+      - unkown  # typo of unknown
+      - Unkown  # typo of unknown
+      - shoud  # typo of should
+      - tigger  # typo of trigger
+      - Tigger  # typo of trigger
+      - grammer  # typo of grammar
+      - identifer  # typo of identifier
+      - Identifer  # typo of identifier
+      - retrive  # typo of retrieve
+      - depercated  # typo of deprecated
+      - vaild  # typo of valid
+      - Vaild  # typo of valid
+    voices:
+      - voices/score1.mp3
+      - voices/score2.mp3
+      - voices/score3.mp3
+      - voices/score4.mp3
+      - voices/score5.mp3
+      - voices/score6.mp3
+      - voices/score7.mp3
+      - voices/score8.mp3
+      - voices/score9.mp3
+      - voices/score10.mp3
+      - voices/score11.mp3
+      - voices/score12.mp3
+      - voices/score13.mp3
+      - voices/score14.mp3
+      - voices/score15.mp3
+      - voices/score16.mp3
+      - voices/score17.mp3
+      - voices/score18.mp3
+      - voices/score19.mp3
+      - voices/score20.mp3
+
+  - keywords:
+      - setTimeout(
+      - setInterval(
+    voices:
+      - voices/score21.mp3
+
+  - keywords:
+      - 'import '
+    voices:
+      - voices/score22.mp3
+
+  - keywords:
+      - 'function '
+      - '() => '
+    voices:
+      - voices/score23.mp3
+
+  - keywords:
+      - if (
+      - ' ? '
+    voices:
+      - voices/score24.mp3
+      - voices/score25.mp3
+
+  - keywords:
+      - else {
+    voices:
+      - voices/score26.mp3
+
+  - keywords:
+      - for (
+      - while (
+      - switch (
+      - .map(
+    voices:
+      - voices/score10.mp3
+      - voices/score11.mp3
+      - voices/score12.mp3
+      - voices/score13.mp3
+      - voices/score14.mp3
+      - voices/score15.mp3
+      - voices/score16.mp3
+
+  - keywords:
+      - 'async '
+    voices:
+      - voices/score2.mp3
+      - voices/score3.mp3
+
+  - keywords:
+      - 'await '
+    voices:
+      - voices/score12.mp3
+      - voices/score13.mp3
+      - voices/score14.mp3
+      - voices/score15.mp3
+
+  - keywords:
+      - try{
+      - try {
+      - 'try:'
+    voices:
+      - voices/score12.mp3
+      - voices/score13.mp3
+      - voices/score14.mp3
+      - voices/score15.mp3
+      - voices/score16.mp3
+      - voices/score17.mp3
+      - voices/score18.mp3
+
+  - keywords:
+      - 'catch '
+      - 'except:'
+    voices:
+      - voices/score13.mp3
+      - voices/score14.mp3
+      - voices/score15.mp3
+
+  - keywords:
+      - "continue\n"
+      - "break\n"
+      - "exit\n"
+      - finally
+    voices:
+      - voices/score3.mp3
+      - voices/score4.mp3
+      - voices/score5.mp3
+      - voices/score6.mp3
+      - voices/score7.mp3
+      - voices/score8.mp3
+
+  - keywords:
+      - return null
+      - "return\n"
+    voices:
+      - voices/crash.mp3
+      - voices/flap.mp3
+      - voices/gameover.mp3
+      - voices/ouch.mp3
+
+  - keywords:
+      - this.
+      - self.
+      - public
+      - private
+      - extends
+    voices:
+      - voices/score1.mp3
+      - voices/score2.mp3
+      - voices/score3.mp3
+
+
+  # some special words maybe in variables
+  - keywords:
+      - like
+    voices:
+      - voices/score1.mp3
+      - voices/score2.mp3
+      - voices/score3.mp3
+
+  - keywords:
+      - kiss
+    voices:
+      - voices/score1.mp3
+      - voices/score2.mp3
+      - voices/score3.mp3
+
+  - keywords:
+      - opai
+    voices:
+      - voices/score1.mp3
+      - voices/score2.mp3
+      - voices/score3.mp3
+
+  - keywords:
+      - hello
+    voices:
+      - voices/score1.mp3
+      - voices/score2.mp3
+      - voices/score3.mp3
+
+  - keywords:
+      - ' no '
+    voices:
+      - voices/score13.mp3
+      - voices/score14.mp3
+      - voices/score15.mp3
+
+  - keywords:
+      - Hong Kong
+    voices:
+      - voices/crash.mp3
+      - voices/flap.mp3
+      - voices/gameover.mp3
+      - voices/ouch.mp3
